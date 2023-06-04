@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label fx:id="name1" layoutX="53.0" layoutY="149.0" prefHeight="17.0" prefWidth="91.0" text="Label" />
+      <Label fx:id="name2" layoutX="53.0" layoutY="183.0" prefHeight="17.0" prefWidth="91.0" text="Label" />
+      <Label fx:id="name3" layoutX="53.0" layoutY="217.0" prefHeight="17.0" prefWidth="91.0" text="Label" />
+      <Label fx:id="price1" layoutX="181.0" layoutY="149.0" text="Label" />
+      <Label fx:id="price2" layoutX="181.0" layoutY="183.0" text="Label" />
+      <Label fx:id="price3" layoutX="181.0" layoutY="217.0" text="Label" />
+      <Label fx:id="qty1" layoutX="298.0" layoutY="149.0" text="Label" />
+      <Label fx:id="qty2" layoutX="298.0" layoutY="183.0" text="Label" />
+      <Label fx:id="qty3" layoutX="298.0" layoutY="217.0" text="Label" />
+      <Label fx:id="lineTotalAmount1" layoutX="406.0" layoutY="149.0" text="Label" />
+      <Label fx:id="lineTotalAmount2" layoutX="406.0" layoutY="183.0" text="Label" />
+      <Label fx:id="lineTotalAmount3" layoutX="406.0" layoutY="217.0" text="Label" />
+      <Label layoutX="36.0" layoutY="119.0" text="PRODUCT NAME">
+         <font>
+            <Font name="Courier New" size="12.0" />
+         </font></Label>
+      <Label layoutX="180.0" layoutY="119.0" text="PRICE">
+         <font>
+            <Font name="Courier New" size="12.0" />
+         </font></Label>
+      <Label layoutX="284.0" layoutY="119.0" text="QUANTITY">
+         <font>
+            <Font name="Courier New" size="12.0" />
+         </font></Label>
+      <Label layoutX="394.0" layoutY="119.0" text="AMOUNT">
+         <font>
+            <Font name="Courier New" size="12.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="258.0" text="TOTAL AMOUNT :">
+         <font>
+            <Font name="Courier New" size="12.0" />
+         </font></Label>
+      <Label fx:id="finalAmount" layoutX="430.0" layoutY="258.0" text="Label" />
+      <ImageView fitHeight="52.0" fitWidth="200.0" layoutX="183.0" layoutY="334.0">
+         <image>
+            <Image url="@../../../../barcode.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="123.0" layoutX="212.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../IKEA-Logo-1967.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
